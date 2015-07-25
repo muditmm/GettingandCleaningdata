@@ -123,5 +123,5 @@ Subject_Activity_Features_means <- test_train_measurement %>%
                           summarise(Measurement_Average = mean(measurement))
 
 
-write.table(Subject_Activity_means, "Subject_Activity_Features_means.txt", 
+write.table(Subject_Activity_Features_means, "Subject_Activity_Features_means.txt", 
             row.names = FALSE)
